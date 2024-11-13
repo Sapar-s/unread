@@ -957,7 +957,7 @@ body {
 .middle-right {
   margin-left: 49.6px;
   width: 60vw;
-  height: 404.5px;
+  /* height: 404.5px; */
 }
 
 .mr1 {
@@ -980,6 +980,19 @@ body {
   width: 75px;
 }
 
+.mobilemr1 {
+  display: flex;
+}
+
+.mobilemr1 h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-right: 20px;
+}
+
 .mr2 h6 {
   color: #fff;
   font-family: "SF Display", sans-serif;
@@ -997,7 +1010,7 @@ body {
   font-weight: 300;
   font-size: 10.8px;
   opacity: 0.4;
-  margin: 15px 0;
+  margin: 70px 0 0 0;
   max-width: 480px;
   height: 26px;
 }
@@ -1006,6 +1019,7 @@ body {
   display: flex;
   margin-top: 46px;
   margin-left: -25px;
+  flex-wrap: wrap;
 }
 
 .mr3 h4 {
@@ -1020,7 +1034,7 @@ body {
   font-weight: 300;
   opacity: 0.4;
   margin-top: 9px;
-  height: 20px;
+  /* height: 20px; */
   transition: all 0.2s linear;
 }
 
@@ -1063,7 +1077,7 @@ body {
 }
 
 .mr3m h4 {
-  width: 180px;
+  /* width: 180px; */
   height: 24px;
 }
 

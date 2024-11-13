@@ -26,6 +26,10 @@
     padding: 0;
   }
 
+  /* .lr {
+    width: 90%;
+  } */
+
   .right {
     width: 100%;
     padding: 0;
@@ -121,10 +125,6 @@
     height: 1000px;
   }
 
-  .middle {
-    /* position: relative; */
-  }
-
   .middle-left {
     width: 49%;
     padding-left: 25px;
@@ -149,10 +149,6 @@
     display: none;
   }
 
-  .mr3child2 {
-    flex-wrap: wrap;
-  }
-
   .mr3 .mr3r {
     margin-top: 46px;
     flex-wrap: wrap;
@@ -174,14 +170,36 @@
   } */
 }
 
+@media screen and (min-width: 650px) {
+  .mobilemr1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mr1 {
+    display: none;
+  }
+
+  .mobilemr1 {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+  .mobilemr2 h6 {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 625px) {
   .medee {
     max-width: 510px;
   }
 
-  /* .tuuh {
-    margin-right: 230px;
-  } */
+  .ongorson3 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 595px) {
@@ -194,13 +212,29 @@
   .medee {
     max-width: 450px;
   }
+}
 
-  /* .tuuh {
-    margin-right: 290px;
-  } */
+@media screen and (max-width: 525px) {
+  .medee {
+    max-width: 410px;
+  }
+
+  .lr {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .medee {
+    max-width: 380px;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .lr {
+    margin: 0 40px;
+  }
+
   .smallnews {
     display: block;
   }
@@ -259,5 +293,80 @@
   .past {
     height: 4660px;
     justify-items: center;
+  }
+
+  .lastback {
+    height: 1330px;
+  }
+
+  .middle {
+    display: block;
+  }
+
+  .middle-left {
+    width: 100%;
+  }
+
+  .middle-right {
+    /* margin-top: 50px; */
+    width: 100%;
+  }
+
+  .ml4 {
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+  }
+
+  .mr3 {
+    margin-top: 150px;
+    padding-left: 25px;
+  }
+
+  .mr3l {
+    width: 50%;
+  }
+
+  .mr3m {
+    width: 50%;
+  }
+
+  .footerbottom {
+    margin-top: 680px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .medee {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .medee {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .medee {
+    max-width: 305px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .lr {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .lr {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 304px) {
+  .ml4 {
+    flex-wrap: wrap;
   }
 }

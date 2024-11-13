@@ -20,49 +20,6 @@
     width: 100%;
   }
 
-  /* .bignew {
-    max-width: 464.5px;
-    height: 300.1px;
-  }
-
-  .smallnew1 {
-    max-width: 237px;
-    height: 193px;
-  }
-
-  .smallnew2 {
-    max-width: 237px;
-    height: 193px;
-  }
-
-  .newtopl {
-    max-width: 237px;
-    height: 224.1px;
-  }
-
-  .newtopr {
-    max-width: 237px;
-    height: 224.1px;
-  }
-
-  .newbottoml {
-    max-width: 237px;
-    height: 267px;
-  }
-
-  .newbottomr {
-    max-width: 237px;
-    height: 267px;
-  }
-
-  .saaral {
-    max-width: 445.5px;
-  }
-
-  .saaralm {
-    max-width: 218px;
-  } */
-
   .past {
     justify-items: center;
     height: 1250px;
@@ -132,14 +89,14 @@
   .middle-right {
     margin-left: 35px;
     padding-left: 0;
-    height: 404px;
+    /* height: 404px; */
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
-  .mr3r {
+  /* .mr3r {
     padding-left: 0;
-  }
+  } */
 
   .footerbottom {
     width: 92vw;
@@ -169,10 +126,30 @@
   }
 }
 
+@media screen and (max-width: 941px) {
+  .mr3r {
+    padding-left: 28px;
+  }
+}
+
 @media screen and (max-width: 930px) {
   .headerboss {
     width: 930px;
     height: 42px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .lastback {
+    height: 1000px;
+  }
+
+  .mr3r {
+    margin-top: 35px;
+  }
+
+  .footerbottom {
+    margin-top: 300px;
   }
 }
 
